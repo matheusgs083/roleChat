@@ -1,5 +1,3 @@
-# main.py
-
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 from rag_system import RAGSystem
@@ -31,6 +29,8 @@ for message in st.session_state.chat_history:
 user_input = st.chat_input("Digite sua pergunta aqui...")
 
 if user_input:
+    st.session_state.chat_history.append(HumanMessage(content=user_input))
+
     with st.chat_message("Human"):
         st.markdown(user_input)
 
@@ -41,7 +41,5 @@ if user_input:
                 st.session_state.chat_history
             )
 
-        # Atualiza histórico
-        st.session_state.chat_history.append(HumanMessage(content=user_input))
         st.session_state.chat_history.append(AIMessage(content=answer))
         st.markdown(answer)

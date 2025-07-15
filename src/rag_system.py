@@ -1,4 +1,3 @@
-# src/rag_system.py
 import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
