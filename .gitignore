@@ -1,6 +1,11 @@
-#environment variables
-venv/*
+# .gitignore
+
+# Ignore Python cache files
+__pycache__/
+venv/
 .env
 
-#
-index_faiss/*
+faiss_indexes/*
+
+data/pdfs/*
+!data/pdfs/
