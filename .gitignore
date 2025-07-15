@@ -1,6 +1,14 @@
-#environment variables
-venv/*
+# .gitignore
+
+venv/
 .env
 
-#
-index_faiss/*
+/index_faiss/*
+!/index_faiss/.gitkeep
+
+/data/*
+!/data/.gitkeep
+!/data/pdfs/
+
+/data/pdfs/*
+!/data/pdfs/.gitkeep
