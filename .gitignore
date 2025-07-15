@@ -5,10 +5,4 @@ venv/
 
 faiss_indexes/*
 
-
-/data/*
-!/data/.gitkeep
-!/data/pdfs/
-
-/data/pdfs/*
-!/data/pdfs/.gitkeep
+!data/pdfs/
