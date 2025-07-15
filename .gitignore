@@ -3,8 +3,8 @@
 venv/
 .env
 
-/index_faiss/*
-!/index_faiss/.gitkeep
+faiss_indexes/*
+
 
 /data/*
 !/data/.gitkeep
