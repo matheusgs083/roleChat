@@ -5,6 +5,7 @@ roleChat is an AI-powered conversational assistant that leverages Large Language
 Originally designed to explore corporate roles and job functions, roleChat has evolved into a versatile chat system capable of supporting a wide range of knowledge discovery and interactive information retrieval tasks.
 
 ## Technologies Used
+
 This project employs a robust technological stack to create a **RAG (Retrieval Augmented Generation) system**, combining **LLM (Large Language Model)** capabilities with information retrieval from documents.
 
 * **Streamlit**: Used to build the **interactive and dynamic user interface**, allowing for easy interaction with the chatbot assistant.
